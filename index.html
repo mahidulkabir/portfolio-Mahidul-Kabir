@@ -45,5 +45,97 @@
     </style>
   </head>
 
- 
+  <body class="font-open">
+    <header class="bg-[#FFF8F3] ">
+      <!-- main container div  -->
+      <div>
+        <!-- nav section  -->
+        <nav class="w-5/6 mx-auto">
+          <div class="navbar">
+            <div class="navbar-start">
+              <!-- Small screen part  -->
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold"
+                >
+                  <li><a>Portfolio</a></li>
+
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl font-bold">Web <span class="text-common-btn-color">Developer</span></a>
+            </div>
+            <!-- big screen part  -->
+            <div class="navbar-center hidden lg:flex"></div>
+            <div class="navbar-end">
+              <div class="hidden lg:block"><ul class="menu menu-horizontal px-1 font-bold">
+                <li><a>Portfolio</a></li>
+
+                <li><a>Contact</a></li>
+              </ul></div>
+              
+              <a href="./images/2.pdf" download="Mahidul'sCV"
+                ><button class="btn bg-common-btn-color text-white">
+                  My CV
+                </button></a
+              >
+            </div>
+          </div>
+        </nav>
+        <!-- rest of the banner -->
+        <div class="flex flex-col lg:flex-row lg:justify-between items-center lg:w-5/6 mx-auto">
+          <!-- text part  -->
+          <div class="lg:w-3/5 space-y-6 px-5">
+            <p class="text-5xl font-semibold">HI, I am</p>
+            <h3 class="text-7xl font-bold">Mahidul Kabir</h3>
+            <p class="text-lg">
+              I am a web developer with Constantly learning and adapting to new
+              trends, I strive to develop innovative web solutions that meet
+              both user needs and business goals.
+            </p>
+            
+            <a href="./images/2.pdf" download="Mahidul'sCV" 
+              ><button class="btn bg-common-btn-color text-white mt-8 mr-5">
+                <i class="fa-solid fa-download"></i>
+                Download CV
+              </button></a
+            >
+            <a href="tel:+8801616345888" class="click-to-call" class="mt-5"
+              ><button
+                class="btn border-2 border-common-btn-color bg-transparent"
+              >
+                <i class="fa-solid fa-phone-flip"></i>
+                Contact
+              </button></a
+            >
+          </div>
+          <!-- image part -->
+          <div  class="">
+            <img
+              src="./images/mahidul.png"
+              alt="developer profile pic"/>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
